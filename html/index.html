@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>444aR | Portofolio website</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/aset/logo_new.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" alt="Ery" src="/aset/Logo_new-removebg-preview.png">
+
+        <div class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#aboutme">About me</a>
+            <a href="#myproject">My project</a>
+            <a href="#contactme">Contact me</a>
+        </div>
+    </header>
+
+    <main id="Home">
+        <article>
+            <div class="popup" id="popup">
+                <div class="popup-content">
+                    <h2>Siapa namamu?</h2>
+                    <input type="text" id="nameinput" placeholder="Masukan nama anda">
+                    <button onclick="submitName()">Submit</button>
+                </div>
+            </div>
+            <div class="text">
+                <div class="wellcomeMasage" id="wellcomeMasage"></div>
+                <p>Selamat datang di portofolio digital saya. 
+                    <br>Sebuah kumpulan karya terpilih yang merepresentasikan passion, proses, 
+                    <br>dan profesionalisme dalam setiap proyek.</p>
+                <button class="button1"><a href="#">View more</a></button>
+                <button class="button2"><a href="#">My sosmed</a></button>
+            </div>
+            <figure>
+                <img src="/aset/profile.png">
+            </figure>
+        </article>
+    </main>
+    <main id="aboutme">
+        <div class="container">
+            <div class="slide" id="banner-slide">
+                <div class="item" style="background-image: url(/aset/foto-bromo3.jpg);">
+                    <div class="content">
+                        <div class="name">about me</div>
+                        <div class="des">Halo, nama saya arya, saya lahir di pasuruan 27 mei 2008</div>
+                        <button>see more</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(/aset/foto-bromo1.jpg);">
+                    <div class="content">
+                        <div class="name">Family</div>
+                        <div class="des">Sya mempunyai 1 saudara kandung, dan saya adalah anak pertama dikeluarga</div>
+                        <button>see more</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(/aset/foto_lks.jpeg);">
+                    <div class="content">
+                        <div class="name">experience</div>
+                        <div class="des">Saya pernah mengikuti beberapa lomba, seperti LKS dan olimpiade olimpiade
+                            lainnya, di lks saya mengikuti bidang loma AI</div>
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="button-banner">
+                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </main>
+    <main id="myproject">
+        <article  style="display: flex; flex-direction: column;">
+            <div class="portfolio-header">
+                <h1>My Projects</h1>
+                <p>Beberapa project yang pernah saya buat</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="E-commerce Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>Absensi</h3>
+                        <p>Website absensi siswa
+                        </p>
+                        <div class="project-tags">
+                            <span>Laravel</span>
+                            <span>HMLT</span>
+                            <span>Css</span>
+                            <span>Js</span>
+                            <span>XAMPP</span>
+                            <span>phpmyadmin</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link">Live Demo</a>
+                            <a href="#" class="code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Health Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sentimen Analiyst</h3>
+                        <p>Website untuk menganalisi sentimen dari suatu kalimat
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link">Live Demo</a>
+                            <a href="#" class="code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Mobile Game">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mobile Game</h3>
+                        <p>Game mobile
+                        </p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link">Play Demo</a>
+                            <a href="#" class="code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="AI Chatbot">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Customer Support Chatbot</h3>
+                        <p>Cahtbot ai untuk perusahaan
+                        </p>
+                        <div class="project-tags">
+                            <span>BOOTPRES</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link">Try Demo</a>
+                            <a href="#" class="code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+<footer id="contactme" style="
+    background: linear-gradient(135deg, #6a3093, #9c27b0);
+    color: white;
+    padding: 3rem 0;
+    margin-top: 4rem;
+">
+    <div style="
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    ">
+        <!-- Bagian Tentang -->
+        <div>
+            <h3 style="
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                position: relative;
+                display: inline-block;
+            ">
+                Tentang Saya
+                <span style="
+                    position: absolute;
+                    bottom: -8px;
+                    left: 0;
+                    width: 50%;
+                    height: 3px;
+                    background-color: #e1d5f0;
+                "></span>
+            </h3>
+            <p style="margin-bottom: 1rem; line-height: 1.7;">
+                Saya seorang pengembang dengan passion menciptakan solusi digital yang indah dan fungsional.
+            </p>
+            <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+                <a href="#" style="
+                    color: white;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s ease;
+                ">&#128279;</a>
+                <a href="#" style="
+                    color: white;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s ease;
+                ">&#128231;</a>
+                <a href="#" style="
+                    color: white;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s ease;
+                ">&#128187;</a>
+            </div>
+        </div>
+
+        <!-- Link Cepat -->
+        <div>
+            <h3 style="
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                position: relative;
+                display: inline-block;
+            ">
+                Link Cepat
+                <span style="
+                    position: absolute;
+                    bottom: -8px;
+                    left: 0;
+                    width: 50%;
+                    height: 3px;
+                    background-color: #e1d5f0;
+                "></span>
+            </h3>
+            <ul style="list-style: none;">
+                <li style="margin-bottom: 0.8rem;">
+                    <a href="#" style="
+                        color: white;
+                        text-decoration: none;
+                        transition: all 0.3s ease;
+                        display: inline-block;
+                    ">Beranda</a>
+                </li>
+                <li style="margin-bottom: 0.8rem;">
+                    <a href="#" style="
+                        color: white;
+                        text-decoration: none;
+                        transition: all 0.3s ease;
+                        display: inline-block;
+                    ">Proyek</a>
+                </li>
+                <li style="margin-bottom: 0.8rem;">
+                    <a href="#" style="
+                        color: white;
+                        text-decoration: none;
+                        transition: all 0.3s ease;
+                        display: inline-block;
+                    ">Tentang</a>
+                </li>
+                <li style="margin-bottom: 0.8rem;">
+                    <a href="#" style="
+                        color: white;
+                        text-decoration: none;
+                        transition: all 0.3s ease;
+                        display: inline-block;
+                    ">Kontak</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Kontak -->
+        <div>
+            <h3 style="
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                position: relative;
+                display: inline-block;
+            ">
+                Hubungi Saya
+                <span style="
+                    position: absolute;
+                    bottom: -8px;
+                    left: 0;
+                    width: 50%;
+                    height: 3px;
+                    background-color: #e1d5f0;
+                "></span>
+            </h3>
+            <ul style="list-style: none;">
+                <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span>📧</span>
+                    <span>aryabimap299@gmail.com</span>
+                </li>
+                <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span>📱</span>
+                    <span>+62 8564 5085 966</span>
+                </li>
+                <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span>🏢</span>
+                    <span>pasuruan, Indonesia</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+            <h3 style="
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                position: relative;
+                display: inline-block;
+            ">
+                Newsletter
+                <span style="
+                    position: absolute;
+                    bottom: -8px;
+                    left: 0;
+                    width: 50%;
+                    height: 3px;
+                    background-color: #e1d5f0;
+                "></span>
+            </h3>
+            <p style="margin-bottom: 1rem;">
+                Berlangganan untuk mendapatkan update proyek terbaru saya.
+            </p>
+            <form style="display: flex; gap: 0.5rem;">
+                <input type="email" placeholder="Alamat email Anda" style="
+                    flex: 1;
+                    padding: 0.8rem;
+                    border: none;
+                    border-radius: 5px;
+                    outline: none;
+                ">
+                <button type="submit" style="
+                    background-color: #e1d5f0;
+                    color: #6a3093;
+                    border: none;
+                    padding: 0 1.5rem;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                ">
+                    Kirim
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Hak Cipta -->
+    <div style="
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    ">
+        <p>&copy; 2025 Ery.</p>
+    </div>
+</footer>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
